@@ -27,7 +27,7 @@
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `12h` sample updated in sync
 
-> **Sample on GitHub** · `MSFT_12h.csv` (142 rows, `2026-02-09` -> `2026-09-01`, 8.50 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/msft)** — **3,117** `12h` rows (full `1m`: 636,443), **11 timeframes**, `2011-05-09` -> `2026-09-01`.
+> **Sample on GitHub** · `MSFT_12h.csv` (77 rows, `2026-05-13` -> `2026-09-01`, 8.28 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/msft)** — **3,117** `12h` rows (full `1m`: 634,891), **11 timeframes**, `2011-05-09` -> `2026-09-01`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Microsoft · US stocks | Microsoft · US stocks |
 | Timeframes | `12h` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 12h rows | 142 | **3,117** |
-| Size | 8.50 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/msft) |
-| Period | `2026-02-09` -> `2026-09-01` | `2011-05-09` -> `2026-09-01` |
+| 12h rows | 77 | **3,117** |
+| Size | 8.28 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/msft) |
+| Period | `2026-05-13` -> `2026-09-01` | `2011-05-09` -> `2026-09-01` |
 | File | `MSFT_12h.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/msft) |
 | Coverage report | — | [MSFT coverage](https://getdata.finance/coverage/msft) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,19 +75,19 @@ First and latest rows from the GitHub sample **`MSFT_12h.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-09T12:00:00+00:00 | 400.16 | 414.35 | 400.16 | 413.33 | 62187 |
-| 2026-02-10T12:00:00+00:00 | 413.33 | 423.15 | 412.01 | 412.81 | 62180 |
-| 2026-02-11T12:00:00+00:00 | 412.81 | 415.71 | 400.49 | 403.64 | 67717 |
-| 2026-02-12T12:00:00+00:00 | 403.64 | 405.67 | 397.48 | 401.63 | 57910 |
-| 2026-02-13T12:00:00+00:00 | 401.63 | 404.91 | 397.52 | 400.66 | 49660 |
+| 2026-05-13T12:00:00+00:00 | 405.55 | 405.55 | 399.07 | 403.38 | 35711.89056 |
+| 2026-05-14T12:00:00+00:00 | 403.38 | 409.89 | 398.97 | 407.6 | 38913 |
+| 2026-05-15T12:00:00+00:00 | 407.6 | 426.17 | 407.6 | 420.35 | 53350.1803 |
+| 2026-05-18T12:00:00+00:00 | 420.35 | 426.87 | 418.82 | 425.53 | 44417.98386 |
+| 2026-05-19T12:00:00+00:00 | 425.53 | 434.45 | 418.25 | 419.65 | 41053 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-08-26T12:00:00+00:00 | 490.9 | 496.47 | 486.81 | 494.04 | 18494 |
-| 2026-08-27T12:00:00+00:00 | 495.86 | 505.88 | 489.52 | 504.24 | 28997 |
-| 2026-08-28T12:00:00+00:00 | 504.24 | 517.21 | 504.24 | 513.13 | 38463 |
+| 2026-08-26T12:00:00+00:00 | 490.65 | 496.35 | 486.56 | 495.38 | 28132 |
+| 2026-08-27T12:00:00+00:00 | 495.38 | 504.6 | 489.04 | 502.96 | 41640 |
+| 2026-08-28T12:00:00+00:00 | 502.96 | 515.93 | 502.96 | 511.85 | 38463 |
 | 2026-08-31T12:00:00+00:00 | 513.13 | 513.13 | 505.78 | 506.72 | 27829 |
 | 2026-09-01T12:00:00+00:00 | 506.72 | 506.72 | 496.09 | 500.48 | 29617 |
 
